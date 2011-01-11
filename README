@@ -1,3 +1,4 @@
 Samples using the nifty generators
 1.  Using nifty_authentication
 2.  Should run nifty_layouts first since nifty_auth needs it.
+3.  Used nifty_scaffold to create for book/books

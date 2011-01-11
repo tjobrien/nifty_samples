@@ -1,3 +1,11 @@
-<h2>Hello Stylish Person</h2>
+<h2>Hello!</h2>
 
-Please <%= link_to "Log in", login_path %> or signup!
+<% if logged_in? %>
+<p>Welcome <%= current_user.username %>
+	
+
+<% else %>
+
+Please <%= link_to "Log in", login_path %> or <%= link_to 'Sign up', signup_path %>
+
+<% end %>

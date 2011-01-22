@@ -1,0 +1,11 @@
+development:
+  domain: localhost:3000
+  admin: 1
+  regular_user: 2
+  priveleged_user: 3
+
+test:
+  domain: test.host
+
+production:
+  domain: example.com
